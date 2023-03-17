@@ -1,0 +1,44 @@
+// resources/sass/_custom.scss
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: $main-color;
+    border-bottom: 3px solid $dark-color;
+    box-shadow: 0 3px 25px rgba($dark-color, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.footer {
+    background-color: $main-color;
+    border-top: 3px solid $dark-color;
+    box-shadow: 0 -3px 25px rgba($dark-color, 0.3);
+    position: sticky;
+    bottom: 0;
+    z-index: 1000;
+}
+
+@media (max-width: 767.98px) {
+    .footer {
+        position: static;
+    }
+}
+
+.lower-footer {
+    background-color: $dark-color;
+    position: sticky;
+    bottom: 0;
+    z-index: 900;
+}
+
+.sidebar {
+    .card {
+        background-color: $main-color;
+        border-color: $dark-color;
+    }
+}
