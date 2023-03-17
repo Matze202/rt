@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Calibri';
+    src: url('/fonts/Calibri/regular/Calibri.woff') format('woff'), /* WOFF */
+    url('/fonts/Calibri/regular/Calibri.woff2') format('woff2'), /* WOFF2 */
+    url('/fonts/Calibri/regular/Calibri.ttf') format('truetype'); /* TTF */
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('/fonts/Calibri/bold/Calibri-Bold.woff') format('woff'), /* WOFF */
+    url('/fonts/Calibri/bold/Calibri-Bold.woff2') format('woff2'), /* WOFF2 */
+    url('/fonts/Calibri/bold/Calibri-Bold.ttf') format('truetype'); /* TTF */
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('/fonts/Calibri/italic/Calibri-Italic.woff') format('woff'), /* WOFF */
+    url('/fonts/Calibri/italic/Calibri-Italic.woff2') format('woff2'), /* WOFF2 */
+    url('/fonts/Calibri/italic/Calibri-Italic.ttf') format('truetype'); /* TTF */
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('/fonts/Calibri/bold-italic/Calibri-BoldItalic.woff') format('woff'), /* WOFF */
+    url('/fonts/Calibri/bold-italic/Calibri-BoldItalic.woff2') format('woff2'), /* WOFF2 */
+    url('/fonts/Calibri/bold-italic/Calibri-BoldItalic.ttf') format('truetype'); /* TTF */
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('/fonts/Calibri/light/Calibri-Light.woff') format('woff'), /* WOFF */
+    url('/fonts/Calibri/light/Calibri-Light.woff2') format('woff2'), /* WOFF2 */
+    url('/fonts/Calibri/light/Calibri-Light.ttf') format('truetype'); /* TTF */
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('/fonts/Calibri/light-italic/Calibri-LightItalic.woff') format('woff'), /* WOFF */
+    url('/fonts/Calibri/light-italic/Calibri-LightItalic.woff2') format('woff2'), /* WOFF2 */
+    url('/fonts/Calibri/light-italic/Calibri-LightItalic.ttf') format('truetype'); /* TTF */
+    font-weight: 300;
+    font-style: italic;
+}
