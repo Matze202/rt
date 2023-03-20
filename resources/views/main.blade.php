@@ -12,24 +12,24 @@
 <body>
 <div id="app">
     @include('partials.header')
-    <div class="container-fluid">
+    <main class="container-fluid">
         <div class="row">
             <div class="col-md-2">
                 @include('partials.left-sidebar')
             </div>
             <div class="col-md-8">
                 <div class="content">
-                    @yield('content')
+                    @include('partials.content')
                 </div>
             </div>
             <div class="col-md-2">
                 @include('partials.right-sidebar')
             </div>
         </div>
-    </div>
+    </main>
     @include('partials.footer')
     @include('partials.lower-footer')
 </div>
-<script src="{{ asset('js/app.js') }}"></script>
+    @vite('resources/js/app.js')
 </body>
 </html>

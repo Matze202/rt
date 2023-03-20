@@ -1,14 +1,25 @@
 // resources/sass/_custom.scss
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Calibri', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+    height: 100%;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
 }
 
 .header {
     background-color: $main-color;
     border-bottom: 3px solid $dark-color;
-    box-shadow: 0 3px 25px rgba($dark-color, 0.3);
+    box-shadow: 0 3px 25px rgba($dark-color, 0.7);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -17,7 +28,7 @@ body {
 .footer {
     background-color: $main-color;
     border-top: 3px solid $dark-color;
-    box-shadow: 0 -3px 25px rgba($dark-color, 0.3);
+    box-shadow: 0 -3px 25px rgba($dark-color, 0.7);
     position: sticky;
     bottom: 0;
     z-index: 1000;
@@ -41,4 +52,9 @@ body {
         background-color: $main-color;
         border-color: $dark-color;
     }
+}
+
+h1{
+    font-weight: bold;
+    font-style: italic;
 }
